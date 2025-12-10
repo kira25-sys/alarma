@@ -11,5 +11,9 @@ let package = Package(
         .executableTarget(
             name: "alarma"
         ),
+        .testTarget(
+            name: "alarmaTest",
+            dependencies: ["alarma"]
+        ),
     ]
 )

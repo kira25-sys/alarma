@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:alarma}",
+            "name": "Debug alarma",
+            "target": "alarma",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug alarma"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:alarma}",
+            "name": "Release alarma",
+            "target": "alarma",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release alarma"
+        }
+    ]
+}
